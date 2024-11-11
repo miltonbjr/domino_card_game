@@ -42,7 +42,7 @@ class GameManager:
                     "points": points,
                     "symbol": suit_symbols[suit],
                     "card_short": f"{value}{suit_symbols[suit]}",
-                    "image_path": f"/Users/miltonbraghettojr/Documents/Python/test_repo/Domino_card_game/card_deck_imgs/{value}_of_{suits_en[i]}.png"  # Nome da carta em inglês para exibição
+                    "image_path": f"/Users/miltonbraghettojr/Documents/Python/Projetos/Domino_card_game/card_deck_imgs/{value}_of_{suits_en[i]}.png"  # Nome da carta em inglês para exibição
                 })
         return deck
 
