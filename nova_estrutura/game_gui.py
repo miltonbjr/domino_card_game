@@ -65,7 +65,7 @@ class GameUI:
         self.mainframe.place(x=0,y=0,relwidth=1,relheight=1)
         self.mainframe.columnconfigure((0,1,2), weight=1)
         self.mainframe.rowconfigure((0,1,2), weight=1)
-        self.card_back_red_resize = Image.open("/Users/miltonbraghettojr/Documents/Python/test_repo/Domino_card_game/card_deck_imgs/card_back_red.png").resize((60,90))
+        self.card_back_red_resize = Image.open("/Users/miltonbraghettojr/Documents/Python/Projetos/Domino_card_game/card_deck_imgs/card_back_red.png").resize((60,90))
         self.card_back_red = ImageTk.PhotoImage(self.card_back_red_resize)
         print("Preparando mesa...")
         self.setup_table()
